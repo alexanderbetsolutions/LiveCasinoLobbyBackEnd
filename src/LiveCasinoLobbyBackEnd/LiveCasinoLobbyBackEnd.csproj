@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LiveCasinoLobbyBackEnd.Contracts\LiveCasinoLobbyBackEnd.Contracts.csproj" />
+    <ProjectReference Include="..\LiveCasinoLobbyBackEnd.Repositories\LiveCasinoLobbyBackEnd.Repositories.csproj" />
+    <ProjectReference Include="..\LiveCasinoLobbyBackEnd.Services\LiveCasinoLobbyBackEnd.Services.csproj" />
+  </ItemGroup>
+
+
+</Project>
